@@ -4054,7 +4054,7 @@ vjs.PosterImage = vjs.Button.extend({
       this.hide();
     }
 
-    player.on('play', vjs.bind(this, this.hide));
+    player.on('play', vjs.bind(this, this.fadeOut));
   }
 });
 
