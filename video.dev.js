@@ -4059,7 +4059,7 @@ vjs.PosterImage = vjs.Button.extend({
 });
 
 vjs.PosterImage.prototype.createEl = function(){
-  var el = vjs.createEl('img', {
+  var el = vjs.createEl('div', {
         className: 'vjs-poster',
 
         // Don't want poster to be tabbable.
